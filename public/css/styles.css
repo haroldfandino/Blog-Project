@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: #8ccbbe;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  padding: 0 17%;
+}
+
+.navbar-items {
+  display: flex;
+  padding: 0 17%;
+  background-color: #3797a4;
+  align-items: flex-end;
+}
