@@ -1,0 +1,18 @@
+<%- include ("header") %>
+
+<div class="container">
+
+<section class="content">
+  <h1>Create a new post</h1>
+  <form class="postForm" action="/newpost" method="post">
+    <h2>Title</h2>
+    <input class= "title" name="postTitle" autocomplete="false">
+    <h2>Post</h2>
+    <textarea class= "post" name="postBody" rows="8" cols="80"></textarea>
+    <button class= "publish" type="submit" name="publish">Publish</button>
+  </form>
+</section>
+
+</div>
+
+<%- include ("footer") %>
